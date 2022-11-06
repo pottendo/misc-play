@@ -9,7 +9,8 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/.pio/build/latest_stable/main",
+                "-I${fileDirname}/../../pottendo-libs"
             ],
             "options": {
                 "cwd": "${fileDirname}"
